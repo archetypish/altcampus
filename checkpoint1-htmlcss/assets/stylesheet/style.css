@@ -86,7 +86,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
+  /* border: 0; */
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -129,3 +129,98 @@ table {
 }
 
 /* CSS Code */
+
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1160px;
+  text-align: center;
+}
+
+.nav-bar {
+  background-color: #07154c;
+  text-align: center;
+  padding: 16px 0;
+}
+
+.nav-bar-item {
+  display: inline-block;
+}
+
+.nav-bar-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 500;
+  margin-right: 64px;
+}
+
+.item-active {
+  color: #14b03b;
+}
+
+.home-h1 {
+  font-size: 40px;
+  font-family: serif;
+  font-weight: 600;
+  margin: 72px 0;
+}
+
+.home-h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.box-model {
+  height: 300px;
+  width: 300px;
+  background-color: #99d8ca;
+  display: inline-block;
+  border: 10px solid #0d1430;
+  border-radius: 16px;
+  box-shadow: 0 0 0 20px #90ffa9, inset 0 0 0 20px #5873e2;
+  margin: 64px 0;
+}
+
+.legend-item {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 24px;
+}
+
+.legend-shade {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid black;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+
+.content {
+  background-color: #99d8ca;
+}
+
+.border {
+  background-color: #0d1430;
+}
+
+.margin {
+  background-color: #99ffa9;
+}
+
+.padding {
+  background-color: #5873e2;
+}
+
+hr {
+  height: 0;
+  display: block;
+  border: 2px dotted #ccc;
+}
