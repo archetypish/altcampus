@@ -8,30 +8,50 @@
     <link rel="stylesheet" href="./assets/stylesheet/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href=".">Home</a></li>
-          <li><a href="./blog.html">Blog</a></li>
+    <header class="header">
+      <nav class="nav-bar">
+        <ul class="nav-bar-items">
+          <li class="nav-bar-item">
+            <a class="nav-bar-link item-active" href=".">Home</a>
+          </li>
+          <li class="nav-bar-item">
+            <a class="nav-bar-link" href="./blog.html">Blog</a>
+          </li>
         </ul>
-        <h1>The Box Model, Box Sizing, and Box Shadow</h1>
       </nav>
+      <div class="container">
+        <h1 class="home-h1">The Box Model, Box Sizing, and Box Shadow</h1>
+      </div>
     </header>
-    <section>
-      <h2>Exercise One</h2>
-      <div></div>
-      <ul>
-        <li><span></span>#99D8CA</li>
-        <li><span></span>#0D1430</li>
-        <li><span></span>#99FFA9</li>
-        <li><span></span>#5873E2</li>
-      </ul>
+    <section class="exercise">
+      <div class="container">
+        <h2 class="home-h2">Exercise One</h2>
+        <div class="box-model"></div>
+        <ul class="legend">
+          <li class="legend-item">
+            <span class="legend-shade content"></span>#99D8CA
+          </li>
+          <li class="legend-item">
+            <span class="legend-shade border"></span>#0D1430
+          </li>
+          <li class="legend-item">
+            <span class="legend-shade margin"></span>#99FFA9
+          </li>
+          <li class="legend-item">
+            <span class="legend-shade padding"></span>#5873E2
+          </li>
+        </ul>
+        <hr />
+      </div>
     </section>
-    <section>
-      <h2>Exercise Two</h2>
-      <div></div>
-      <hr />
-      <div></div>
+
+    <section class="exercise">
+      <div class="container">
+        <h2 class="home-h2">Exercise Two</h2>
+        <div></div>
+        <hr />
+        <div></div>
+      </div>
     </section>
   </body>
 </html>
