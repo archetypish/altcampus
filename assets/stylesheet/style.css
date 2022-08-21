@@ -174,6 +174,7 @@ body {
 .home-h2 {
   font-size: 32px;
   font-weight: 600;
+  margin-bottom: 64px;
 }
 
 .box-model {
@@ -184,7 +185,8 @@ body {
   border: 10px solid #0d1430;
   border-radius: 16px;
   box-shadow: 0 0 0 20px #90ffa9, inset 0 0 0 20px #5873e2;
-  margin: 64px 0;
+  margin-top: 20px;
+  margin-bottom: calc(32px + 20px);
 }
 
 .legend-item {
@@ -220,7 +222,37 @@ body {
 }
 
 hr {
-  height: 0;
+  height: 0px;
   display: block;
-  border: 2px dotted #ccc;
+  border: 0;
+  border-top: 5px dotted #ccc;
+  margin: 64px 0;
+  padding: 0px;
+}
+
+.parent-box {
+  width: 660px;
+  border: 2px solid #000;
+  font-size: 0;
+  display: inline-block;
+}
+
+.child-box {
+  width: 200px;
+  height: 180px;
+  background-color: #dae0fa;
+  display: inline-block;
+  margin: 10px;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.borderbox {
+  box-sizing: border-box;
+}
+
+.exercise2 {
+  margin-bottom: 72px;
 }
