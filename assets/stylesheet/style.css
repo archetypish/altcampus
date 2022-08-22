@@ -258,14 +258,10 @@ hr {
 }
 
 /* Blog page CSS */
-.articles {
+
+.row {
   /* border: 2px solid red; */
   margin: 48px 0;
-}
-
-.article-main {
-  /* border: 2px solid red; */
-  margin-bottom: 48px;
 }
 
 .article-img {
@@ -276,12 +272,15 @@ hr {
 .container {
   font-size: 0;
 }
-.container-img,
-.container-text {
+
+.col1,
+.col2 {
   display: inline-block;
   width: 50%;
   box-sizing: border-box;
   /* border: 2px solid red; */
+  text-align: left;
+  vertical-align: top;
 }
 
 .article-heading {
@@ -312,40 +311,14 @@ hr {
   border-radius: 20px;
 }
 
-.container-text {
-  text-align: left;
-}
-
-.container-text {
-  /* border: 2px solid red; */
-  vertical-align: top;
-  padding-left: 16px;
-}
-
-.container-img {
-  padding-right: 16px;
-}
-
-.article-col {
-  width: 50%;
-  text-align: left;
-}
-
-.article-row {
-  /* font-size: 0; */
-  /* width: 100%; */
-}
-
-.article-row > * {
-  /* border: 2px solid red; */
-  display: inline-block;
-  box-sizing: border-box;
-}
-
 .col2 {
   padding-left: 16px;
 }
 
 .col1 {
   padding-right: 16px;
+}
+
+.gap {
+  margin-top: 32px;
 }
